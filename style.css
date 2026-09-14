@@ -1,0 +1,74 @@
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 6px 12px;
+    border-radius: 6px;
+    text-shadow: 1px 1px 2px grey;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+header{
+    background-color: seagreen;
+    padding: 20px;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    color: black;
+}
+form {
+    margin: 30px auto;
+}
+
+.form-row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+.form-row div {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row label {
+    margin-bottom: 5px;
+}
+
+.form-row input {
+    padding: 6px;
+}
+
+.form-row input[type="submit"] {
+    height: 31px;
+    padding: 5px 20px;
+}
+
+/* Only these are different */
+.register-form {
+    width: 500px;
+}
+
+.login-form {
+    width: 700px;
+}
+body {
+    background-color: rgb(238, 245, 241);
+}
+img{
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
