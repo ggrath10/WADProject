@@ -8,3 +8,5 @@ look at other peoples posts.
 
 Users will be able to make a username and password. THis will give them their profile. 
 With this they can make their own posts or comment on other peoples posts.
+
+<img width="2780" height="1003" alt="Blank diagram" src="https://github.com/user-attachments/assets/d8f1f570-d8c8-478c-9069-7b098ac2cf4a" />
