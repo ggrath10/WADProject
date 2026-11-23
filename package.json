@@ -1,0 +1,29 @@
+{
+  "name": "wadproject",
+  "version": "1.0.0",
+  "description": "My project will be a social media app. This app will allow users create a profile. Then with that profile  they can post pictures with captions. They will also be able to comment on other peoples posts.",
+  "homepage": "https://github.com/ggrath10/WADProject#readme",
+  "bugs": {
+    "url": "https://github.com/ggrath10/WADProject/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggrath10/WADProject.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "mysql2": "^3.24.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
